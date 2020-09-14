@@ -52,11 +52,11 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="mibtechnologies.in"
+                    android:host="mibtechnologies.in/nirmal"
                     android:pathPrefix="/refer"
                     android:scheme="https" />
                 <data
-                    android:host="mibtechnologies.in"
+                    android:host="mibtechnologies.in/nirmal"
                     android:pathPrefix="/itemdetail"
                     android:scheme="https" />
             </intent-filter>
