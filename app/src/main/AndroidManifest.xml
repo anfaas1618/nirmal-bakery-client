@@ -80,11 +80,7 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <receiver android:name="com.mibtech.nirmal.helper.SMSBroadcastReceiver">
-            <intent-filter>
-                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
-            </intent-filter>
-        </receiver>
+
 
         <service android:name="com.mibtech.nirmal.helper.MyFirebaseMessagingService">
             <intent-filter>
